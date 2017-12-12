@@ -132,7 +132,19 @@ const char* const SEED_NODES[] = {
 
 };
    
-  
+   struct CheckpointData {
+uint32_t index;
+const char* blockId;
+};
+
+const std::initializer_list<CheckpointData> CHECKPOINTS[] = {
+   
+   
+  {15000, "e0d6ec7f8c0cc47a3aa14fabf424c5f4d9e443381d0b6b4b942880e7385b9693"}
+, {30000, "cd175bd65451c8d370d6a78c7fb879a374afbf6009c0ddfd12b7f511f380a727"}
+, {40000, "a59e1164ffef68ca2800553028e121c1b5eae8ddb6e52dfbc79a7fbcb43499e1"}
+
+};
    
    
 
