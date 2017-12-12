@@ -137,7 +137,7 @@ uint32_t index;
 const char* blockId;
 };
    
-   const CheckpointData CHECKPOINTS[] = {40000, "a59e1164ffef68ca2800553028e121c1b5eae8ddb6e52dfbc79a7fbcb43499e1"}
+   const CheckpointData CHECKPOINTS[] = { {40000, "a59e1164ffef68ca2800553028e121c1b5eae8ddb6e52dfbc79a7fbcb43499e1"}
 
 };
    
