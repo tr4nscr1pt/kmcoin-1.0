@@ -146,7 +146,7 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {
 
 };
    
-   const CheckpointData CHECKPOINTS = {
+   const <CheckpointData> CHECKPOINTS = {
    
    
   {15000, "e0d6ec7f8c0cc47a3aa14fabf424c5f4d9e443381d0b6b4b942880e7385b9693"}
