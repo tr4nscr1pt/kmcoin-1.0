@@ -131,18 +131,6 @@ const char* const SEED_NODES[] = {
 
 };
 
-struct CheckpointData {
-  uint32_t height;
-  const char* blockId;
-};
-
-const std::initializer_list<CheckpointData> CHECKPOINTS = { 
-  
-
-
-
-
-};
 
 } // CryptoNote
 
